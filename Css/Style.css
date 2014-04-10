@@ -1,0 +1,189 @@
+body
+{
+    margin: 0px;
+    padding:0px;
+    background-color: #cccccc;  
+}
+
+
+#header
+{
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    width: 100%; 
+    height: 50px;   
+    line-height: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #333333;
+    opacity: 0.75;
+    color: #ffffff;
+    font-size: 14px;
+    border-bottom: 1px solid #5e5e5e;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+#BoutonConnexion
+{
+    float: left;
+    margin-left: 20px;
+}
+
+#ReseauSociaux
+{
+    float: right;
+    margin-right: 20px;
+}
+
+#corps
+{
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px; 
+    width: 1100px;
+    height: 1000px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #000000;
+    
+}
+
+#Navigation
+{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    box-shadow: 1px 1px 5px #000000;
+    
+}
+
+#Menu
+{
+    padding-right: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0px;
+    color: #ffffff;
+    text-align: right;
+}
+
+.Onglet
+{
+    display: inline-block;
+    font-size: 14px;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.LienOnglet
+{
+    width: 150px;
+    height: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.LienOnglet:hover
+{
+    width: 150px;
+    color: #89C72C;
+    height: 50px;
+    text-decoration: none;
+    display: block;
+    background-color: #3C3C3C;
+}
+
+#actif
+{
+    box-shadow: 0px 0px 5px #949494;
+    color: #89C72C;
+    background-color: #2C2C2C;
+}
+
+#diapo
+{
+    position: absolute;
+    float: left;
+    width: 600px;
+    height: 300px;
+    margin: 35px;
+    background-color: #cccccc;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 0px 5px #000000;
+}
+    
+
+#colonne
+{
+    position: absolute;
+    margin: 35px;
+    margin-left: 700px;
+    width: 340px;
+    height: 900px;
+    border: 1px solid #AAAAAA;
+    box-shadow: 0px 0px 1px #000000;
+   
+}
+
+#box1
+{
+   width: 100%; 
+   height: 300px;
+   background-color: #cccccc;
+   
+}
+#headerbox1
+{
+
+    border-bottom: 1px solid #5D5E5C;
+    background-color: #333333;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    box-shadow: 0px 0px 1px #000000;
+}
+
+#box2
+{
+    width: 100%;
+    height: 300px;
+    background-color: #cccccc;
+}
+#headerbox2
+{
+    border-top: 1px solid #5D5E5C;
+    border-bottom: 1px solid #5D5E5C;
+    background-color: #333333;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    box-shadow: 0px 0px 1px #000000;
+}
+
+#box3
+{
+    width: 100%;
+    height: 300px;
+    background-color: #cccccc;
+}
+#headerbox3
+{
+    border-top: 1px solid #5D5E5C;
+    border-bottom: 1px solid #5D5E5C;
+    background-color: #333333;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    box-shadow: 0px 0px 1px #000000;
+    
+}
+
+
+
+#img
+{
+    z-index: 9999;
+}
